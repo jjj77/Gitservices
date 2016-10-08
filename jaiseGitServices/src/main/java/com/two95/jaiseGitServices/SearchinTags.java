@@ -17,7 +17,7 @@ import org.eclipse.jgit.treewalk.TreeWalk;
 public class SearchinTags {
 
 	@SuppressWarnings("resource")
-	public static void searchBranches(String localGitRepoPath, String fileName) {
+	public static void searchTags(String localGitRepoPath, String fileName) {
 
 		Set<String> tglst = new TreeSet<>();
 		FileRepositoryBuilder builder = new FileRepositoryBuilder();
