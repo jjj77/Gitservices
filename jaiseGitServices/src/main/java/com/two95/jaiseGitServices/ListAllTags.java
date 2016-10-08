@@ -24,7 +24,7 @@ public class ListAllTags {
 			List<Ref> tags = git.tagList().call();
 			
 			for (Ref ref : tags) {
-				System.out.println("Branch "+ref.getName());
+				System.out.println("Tag "+ref.getName());
 			}
 	}catch(Exception E){System.out.println("repo path not valid or repo does not exist if so please clone");}
 		}

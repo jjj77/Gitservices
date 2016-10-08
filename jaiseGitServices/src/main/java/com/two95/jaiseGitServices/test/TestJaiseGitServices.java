@@ -13,7 +13,7 @@ import com.two95.jaiseGitServices.SearchinTags;
 */
 public class TestJaiseGitServices {
 	public static void main(String args[]) throws IOException{
-		String repopath = "C:/Users/schand018c/git/ruby/.git";
+		String repopath = "C:/Users/jjais/git/smp/.git";
 		System.out.println("******************************");
 		System.out.println("List all branches");
 		ListAllBranches.listBranches(repopath);
