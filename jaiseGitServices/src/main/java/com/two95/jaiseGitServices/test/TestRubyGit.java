@@ -79,7 +79,7 @@ public class TestRubyGit {
 			System.out.println("<---------------------------BRANCH WITH TRAVIS.YML------------------------->");
 			System.out.println(branchSet);
 			System.out.println("<---------------------------TAG WITH TRAVIS.YML------------------------->");
-			System.out.println(tagSet);
+				System.out.println(tagSet);
 			
 
 		} catch (IOException e) {
